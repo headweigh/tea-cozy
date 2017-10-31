@@ -4,17 +4,21 @@ html {
   color: seashell;
   opacity: 0.9;
   background-color: black;
+  text-align: center;
+  align-content: center;
 }
 
 header {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   background-color: black;
   height: 69px;
+  width: 100%;
   border-bottom: 1px solid seashell;
   position: fixed;
   z-index: 1;
+  top: 0px;
 }
 
 .logo {
@@ -24,6 +28,53 @@ header {
 .topnav {
   display: inline-block;
   margin: 10px;
-  align-items: center;
+  padding: 10px;
   text-decoration: underline;
+}
+
+.main {
+  text-align: center;
+  margin-top: 68px;
+}
+
+#mission {
+  display: flex;
+  background-image: url("/Users/jenniferpage/Documents/projects/tea_cozy/resources/images/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+  align-items: center;
+  margin: auto;
+}
+
+#mission-banner {
+  display: inline-flex;
+  flex-direction: column;
+  background-color: black;
+  justify-content: center;
+  width: 100%;
+}
+
+#mission-banner h2, h4 {
+  margin: 10px;
+}
+
+#featured-tea {
+  width: 1000px;
+  justify-content: center;
+  margin: auto;
+}
+
+.tea-blocks {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-flow: row wrap;
+}
+
+.tbloc img {
+  display: block;
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+
 }
