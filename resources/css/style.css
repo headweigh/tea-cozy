@@ -76,5 +76,26 @@ header {
   width: 300px;
   height: 200px;
   margin: 10px;
+}
 
+#locations {
+  background-image: url("/Users/jenniferpage/Documents/projects/tea_cozy/resources/images/img-locations-background.jpg");
+  margin: auto;
+  height: 500px;
+  background-repeat: no-repeat;
+  justify-items: center;
+}
+
+.location-content {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  margin: auto;
+}
+
+.loc-box {
+  background-color: black;
+  width: 300px;
+  margin: 15px 20px 0px 20px;
+  opacity: 1;
 }
