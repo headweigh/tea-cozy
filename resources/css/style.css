@@ -5,7 +5,6 @@ html {
   opacity: 0.9;
   background-color: black;
   text-align: center;
-  align-content: center;
 }
 
 header {
@@ -25,6 +24,7 @@ header {
   height: 50px;
   margin-left: 10px;
 }
+
 .topnav {
   display: inline-block;
   margin: 10px;
@@ -33,7 +33,6 @@ header {
 }
 
 .main {
-  text-align: center;
   margin-top: 68px;
 }
 
@@ -44,13 +43,13 @@ header {
   height: 700px;
   align-items: center;
   margin: auto;
+  margin-bottom: 70px;
 }
 
 #mission-banner {
   display: inline-flex;
   flex-direction: column;
   background-color: black;
-  justify-content: center;
   width: 100%;
 }
 
@@ -60,14 +59,13 @@ header {
 
 #featured-tea {
   width: 1000px;
-  justify-content: center;
   margin: auto;
+  margin-bottom: 60px;
 }
 
 .tea-blocks {
   display: flex;
   justify-content: center;
-  align-content: center;
   flex-flow: row wrap;
 }
 
@@ -79,17 +77,19 @@ header {
 }
 
 #locations {
+  display: flex;
+  flex-direction: column;
   background-image: url("/Users/jenniferpage/Documents/projects/tea_cozy/resources/images/img-locations-background.jpg");
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   height: 500px;
+  width: 1200px;
   background-repeat: no-repeat;
-  justify-items: center;
 }
 
 .location-content {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
-  justify-items: center;
   margin: auto;
 }
 
@@ -98,4 +98,26 @@ header {
   width: 300px;
   margin: 15px 20px 0px 20px;
   opacity: 1;
+}
+
+#locations h2 {
+
+}
+
+.loc-box p {
+  padding: 6px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer h5 {
+  margin: 15px 0px;
+}
+
+.footer #copyright {
+  align-self: left;
+  margin: 20px;
 }
